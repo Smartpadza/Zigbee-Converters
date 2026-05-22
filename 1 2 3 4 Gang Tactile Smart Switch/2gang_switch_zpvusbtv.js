@@ -4,7 +4,7 @@ const tuya = require('zigbee-herdsman-converters/lib/tuya');
 const exposes = require('zigbee-herdsman-converters/lib/exposes');
 const e = exposes.presets;
 const ea = exposes.access;
-
+ 
 const colourLookup = tuya.valueConverterBasic.lookup({
     'red': 1,
     'blue': 2,
